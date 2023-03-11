@@ -1,0 +1,15 @@
+<div a></div>
+<div b></div>
+<style>
+  body{background:#6592CF;}
+  [a]{
+    width: 300px;
+    height: 200px;border-radius:100px 0 0 0;
+    background:#060F55;
+    position:absolute;
+    top:50;right:50;}
+  [b]{
+    height:200px;width:300px;background:#6592CF;
+    border-radius:50px 0 0;
+    position:absolute;top:100;left:100}
+ </style>
