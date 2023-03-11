@@ -1,0 +1,17 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+*{background:#926927;
+margin:0;}
+div{height:100px;width:100px;background:#6D480A;
+border-radius:100% 0;position:relative;}
+[a]{
+rotate:90deg;position:absolute;
+top:120;left:100;}
+[b]{position:absolute;
+top:120;left:200;}
+[c]{
+background:#FFFFFF;rotate:-45deg;
+position:absolute;bottom:100;left:150;}
+</style>
