@@ -1,0 +1,26 @@
+<div a></div>
+<div b></div>
+<style>
+*{
+  background:#4F77FF;
+  margin:0;}
+[a]{
+  width: 80px;
+  height: 80px;
+  border-radius:100px;
+  background: #4F77FF;
+  position:absolute;
+  top:50;left:160;
+  box-shadow:0px 40px #FFFFFF inset;
+}
+[b]{
+  width: 0;
+  height: 0;
+  border-left: 160px solid transparent;
+  border-right: 162px solid transparent;
+  border-bottom: 162px solid #1038BF;
+  position:absolute;
+  bottom:0;
+  left:39;
+}
+</style>
