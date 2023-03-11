@@ -1,0 +1,26 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+  *{background:#998235;}
+  div{border-radius:100%;
+    position:absolute;
+    top:60;left:110;}
+  [a] {
+    width: 180px;
+    height: 180px;
+      background: #FCBE5C;}
+  [b]{
+    width:140px;height:140px;
+    background:#0B2429;
+    top:80;left:140;}
+  [c]{
+    height:100px;width:100px;
+    background:#FCBE5C;
+    top:100;left:150}
+  [d]{
+    height:60px;width:60px;
+    background:#998235;
+    top:120;left:180;}
+  </style>
