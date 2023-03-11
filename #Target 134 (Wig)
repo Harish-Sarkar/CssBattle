@@ -1,0 +1,21 @@
+<div></div>
+<style>
+*{
+  background:#62306D;
+}
+div{
+  height:120px;width:160px;background:#F7EC7D;
+  border-radius:100px 100px 0 0;
+  margin: 70px auto;position:relative;
+}
+div:before{
+  content:'';
+  height:70px;width:80px;background:#F7EC7D;
+  position:absolute;top:90;
+  border-radius: 0 90px 130px 0;}
+div:after{
+    content:'';
+    height:70px;width:80px;background:#F7EC7D;
+    position:absolute;top:90;left:80;
+    border-radius:100px 0 0 130px;}
+</style>  
