@@ -1,0 +1,37 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+*{
+background:#4F77FF;
+}
+
+div{position:absolute;
+}
+[a]{
+width: 240px;
+height: 50px;
+border-radius:10px;
+background: #FFFFFF;
+top:70;
+left:80px;
+box-shadow:0px 110px #ffffff,20px -20px #1038bf,-20px 130px #1038BF;
+}
+[b]{
+height:20px;
+width:200px;
+background:#FFFFFF;
+top:140;
+left:100}
+[c],[d]{
+height:50px;
+width:20px;
+background:#FFFFFF;
+}
+[c]{
+border-radius:0px 0px 0px 10px;top:110;left:80}
+[d]{
+border-radius:0px 10px 0px 0px;top:140;right:80
+}
+</style>
