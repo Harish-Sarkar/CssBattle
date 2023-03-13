@@ -1,0 +1,13 @@
+<div class="grad"></div>
+<style>
+body{
+background:#E3516E;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+  .grad{
+    height: 200px;
+    width: 200px;
+background: conic-gradient(#FADE8B 90deg, #E3516E 90deg 180deg, #F7F3D7 180deg 270deg, #51B5A9 270deg);
+border-radius: 50%}
