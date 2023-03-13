@@ -1,0 +1,14 @@
+<div class="item">
+<style>
+  *{
+    background:#62374e;
+  }
+  .item{
+    background:#fdc57b;
+    height:50px;width:50px;
+    position:absolute;
+    top:50;
+    left:50;
+    box-shadow:250px 0px #fdc57b, 0px 150px #fdc57b, 250px 
+    150px #fdc57b;
+    }
