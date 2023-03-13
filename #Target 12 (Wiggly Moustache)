@@ -1,0 +1,42 @@
+<div id="circle"></div>
+<div id="dot"></div>
+<div class="hf a"></div>
+<div class="hf b"></div>
+<style>
+  body{
+    background:#191210;
+  }
+  #circle {
+    height:100px;
+    width:100px;
+    border:20px solid #ECA03D;
+    border-radius:50%;
+    position:absolute;
+    top:80;
+    left:130;
+  }
+  #dot{
+    height:50px;
+    width:50px;
+    background:#84271C;
+    border-radius:50%;
+    position:absolute;
+    top:125;
+    left:175;
+  }
+  .hf{height:60px;
+    width:60px;
+    border:20px solid;
+    border-radius:50%;
+    position:absolute;
+    top:100;}
+  .a{
+    border-color:#ECA03D transparent transparent #ECA03D;
+    right:50;
+    transform:rotate(45deg);
+  }
+  .b{
+    border-color: transparent transparent #ECA03D #ECA03D;
+    left:50;
+    transform:rotate(-45deg); 
+  }
