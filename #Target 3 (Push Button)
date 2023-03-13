@@ -1,0 +1,33 @@
+<div class="cld rec">
+<div class="cld oc">
+<div class="cld ic">
+<div class="cld dc">
+<style>
+body{
+  background: #6592CF;
+}
+.cld{
+  position:absolute;
+  top:50%;left:50%;
+  transform:translate(-50%, -50%);
+}
+.oc,.ic,.dc{
+    border-radius:50%;}
+.rec{
+  height:150px;
+  width:300px;
+  background:#243D83}
+.oc{
+  background:#6592CF;
+  height:250px;
+  width:250px;
+  margin:auto; }
+.ic{
+  background:#243D83;
+    height:150px;
+    width:150px;}
+.dc{
+  background:#EEB850;
+  height:50px;
+  width:50px;
+}
