@@ -1,0 +1,30 @@
+<div class="a circle"></div>
+<div class="a midleaf"></div>
+<div class="a outleaf"></div>
+<style>
+  body{
+    background:#0B2429;
+    position:relative
+  }
+  .a{height:120px;
+    width:120px;
+    position:absolute;
+  }
+  .circle{
+    background:#F3AC3C;
+    border-radius:100%;
+    top:22;
+    right:71 
+  }
+  .midleaf{
+    border-radius:50% 0 50% 50%;
+    background:#998235;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
+  .outleaf{
+    border-radius:50% 0 50% 50%;
+    background:#F3AC3C;
+    top:142;
+    left:72
