@@ -1,0 +1,28 @@
+<div a></div>
+<div b></div><div d></div>
+<div e></div>
+<div f></div>
+<style>
+  body{background:#000000;}
+  [a]{
+    width:300px;height:20px;background:#AF067C;
+    border-radius:100px;margin:190px 42px;
+    box-shadow:0px -100px #AF067C;}
+  [b]{
+    height:80px;width:20px;background:#FFFFFF;
+    position:absolute;top:110;right:80;
+  }
+  [d],[e]{
+    height:49px;width:20px;background:#FFFFFF;
+  }
+  [d]{
+    position:absolute;top:110;left:80;
+  }
+  [e]{
+    position:absolute;top:141;left:190;
+  }
+  [f]{
+    width:300px;height:20px;background:#AF067C;
+    border-radius:100px;position:absolute;top:140;left:50;
+    transform:rotate(-4deg);
+  }
