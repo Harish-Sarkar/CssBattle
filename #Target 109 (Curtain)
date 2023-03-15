@@ -1,0 +1,13 @@
+<div></div>
+<style>
+*{background:#191919;}
+div {
+width: 40px;
+height: 40px;
+border-radius:100%;
+background: #F6E59C;
+position:absolute;
+top:20;left:20;
+box-shadow: 60px 0px #F6E59C, 120px 0px #F6E59C,180px 0px #F6E59C, 0px 60px #F6E59C, 0px 120px #F6E59C, 0px 180px #F6E59C, 60px 60px #F6E59C, 60px 120px #F6E59C, 120px 60px #F6E59C;
+}
+</style>
