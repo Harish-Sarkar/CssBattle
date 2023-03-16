@@ -1,0 +1,30 @@
+<div id="dark"></div>
+<div id="lite"></div>
+<div id="mid"></div>
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+  }
+  #dark{
+    transform:rotate(-45deg);
+    background:#F3AC3C;
+  }
+  #lite{
+    background:#A3A368;
+    transform:rotate(45deg);
+  }
+  #dark,#lite{
+    height:200px;
+    width:50px;
+    position:absolute;
+    left:175;top:50;
+  }
+  #mid{
+    height:50px;
+    width:50px;
+    background:#FBE18C;
+    transform:rotate(-45deg);
+    align-self:center;
+  }
+</style>
