@@ -1,0 +1,20 @@
+<div id="grad1"><div>
+<div id="pipe"></div>
+<style>
+body{
+background:#AA445F;
+display:flex;
+justify-content:center;
+align-items:center}
+#grad1{
+height: 200px;
+width: 250px;
+border-radius:200px;
+background-image: conic-gradient(#E38F66 180deg,#F7EC7D 180deg)}
+#pipe{
+height:200px;
+width:50px;
+background:#AA445F;
+position:absolute;
+right:175;
+}
