@@ -1,0 +1,43 @@
+<div class="box"></div>
+<div class="dot"></div>
+<div class="left"></div>
+<div class="right"></div>
+<style>
+  *{
+    background:#191919;
+  }
+  div{
+    position:absolute;
+  }
+  .box{
+    width: 150px;
+    height: 200px;
+    background: #F2AD43;
+    border-radius:100px 100px 30px 30px;
+    top:50;left:125
+  }
+  .dot{
+    height:60px;
+    width:60px;
+    border-radius:100%;
+    background:#FFF58F;
+    top:140;
+    left:170;
+    }
+  .left{
+    height:100px;
+    width:100px;
+    border-radius:0 100px 0 20px ;
+    background:#E08027;
+    top:150;
+    left:125;
+  }
+  .right{
+    height:100px;
+    width:100px;
+    border-radius:100px 0 20px 0 ;
+    background:#824B20;
+    top:150;
+    left:175;
+  }
+</style>
