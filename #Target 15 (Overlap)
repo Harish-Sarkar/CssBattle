@@ -1,0 +1,25 @@
+<div class="pink"></div>
+<div class="bpink"></div>
+<div class="eye"></div>
+<style>
+  body{
+    background:#09042A;
+    position:relative;
+  }
+  .pink,.bpink{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    position:absolute;
+  }
+  .pink{
+    top:67;
+    left:167;
+    box-shadow:-100px 0 0 0 #7B3F61;
+  }
+  .bpink{
+    top:67;
+    left:67;
+    box-shadow: 100px 0 0 0 #E78481;
+  }
+  
