@@ -1,0 +1,13 @@
+<div class="tri"></div>
+<style>
+  body{
+    background:#0B2429;
+    margin:0;
+  }
+  .tri{
+    width: 0; 
+    height: 0; 
+  border: 71px solid;
+    border-color: #F3AC3C transparent transparent #F3AC3C;
+  }
+</style>
