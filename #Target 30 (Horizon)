@@ -1,0 +1,32 @@
+<div id="col4"></div>
+<div id="col3"></div>
+<div id="col2"></div>
+<div id="col1"></div>
+<style>
+  body{
+    margin:0;
+    display:flex;
+    flex-direction:column-reverse
+  }
+  div{
+    width:400px
+  }
+  #col1{
+    background:#F7EC7D
+  }
+  #col2{
+    background:#E38F66
+  }
+  #col2,#col1{
+    height:50px
+  }
+  #col3,#col4{
+   height:100px
+  }
+  #col3{
+    background:#AA445F
+  }
+ #col4{
+   background:#62306D
+ } 
+</style>
