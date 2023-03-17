@@ -1,0 +1,38 @@
+<div class="container"></div>
+  <div class="dot"></div>
+  <div class="midcircle"></div>
+  <style>
+  body{
+    background:#0B2429;
+    position:relative;
+  }
+    div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .container{
+      background:#998235;
+      height:200px;
+      width:200px;
+      border-radius: 0 50% 0 50%;
+    top:42;
+    left:91;
+    transform:rotate(-45deg)
+    }
+    .midcircle{
+      height:50px;
+      width:50px;
+      border-radius:50%;
+      background:#0B2429;
+    }
+    .dot{
+    border:20px solid #0B2429;
+    height:140px;
+    width:140px;
+    border-radius:50%;
+    background:#F3AC3C;
+  }
+
+</style>
