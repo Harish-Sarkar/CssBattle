@@ -1,0 +1,75 @@
+<div id="r1"></div>
+<div id="r2"></div>
+<div id="c1"></div>
+<div id="c2"></div>
+<div id="c3"></div>
+<div id="d1"></div>
+<div id="d2"></div>
+<div id="d3"></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div{
+    position:absolute;
+  }
+  #r1{
+    height:200px;
+    width:100px;
+    background:#F7EC7D;
+    bottom:0;
+    left:150
+  }
+  #r2{
+    height:100px;
+    width:300px;
+    background:#F7EC7D;
+    bottom:0;
+    left:50;
+    
+  }
+  #c1{
+    height:60px;
+    width:60px;
+    border:solid 20px #E38F66;
+    border-radius:50%;
+    top:50;
+    left:150;
+  }
+  #c2{
+    height:60px;
+    width:60px;
+    border:solid 20px #AA445F;
+    border-radius:50%;
+    top:150;
+    left:50;
+  }
+  #c3{
+    height:60px;
+    width:60px;
+    border:solid 20px #AA445F;
+    border-radius:50%;
+    top:150;
+    left:250;
+  }
+  #d1,#d2,#d3{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+  }
+  #d1{
+    background:#AA445F;
+    top:70;
+    left:170;
+  }
+  #d2{
+    background:#E38F66;
+    top:170;
+    left:70;
+  }
+  #d3{
+    background:#E38F66;
+    top:170;
+    left:270;
+  }
+</style>
