@@ -1,0 +1,21 @@
+<div a></div>
+<div b></div>
+<style>
+  *{
+    background:#4F77FF;}
+  [a]{
+    width:60px;
+    height:200px;
+    background:#1038BF;
+    margin:50px 42px;
+    box-shadow:120px 0px#1038BF,240px 0px#1038BF;}
+  [b]{
+    height:200px;
+    width:20px;
+    background:#FFFFFF;
+    position:absolute;
+    top:50;
+    left:130;
+    box-shadow:120px 0px#FFFFFF;
+  }
+  </style>
