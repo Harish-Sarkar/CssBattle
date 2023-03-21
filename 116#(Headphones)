@@ -1,0 +1,30 @@
+<div h></div>
+<div l></div>
+<div r></div>
+<style>
+ *{background:#293D7E;}
+  [h]{
+    width: 130px;
+    height: 100px;
+    border: solid 20px #6E91CA;border-bottom:0;
+    border-radius:130px 130px 0 0;
+    position:absolute;
+    top:45;
+    left:115;
+  }
+  [l],[r]{
+    height:80px;
+    width:60px;
+    background:#6E91CA;
+    position:absolute;
+    top:165;
+  }
+  [l]{
+    border-radius:0px 70px 100px 100px;
+    left:115
+  }
+  [r]{
+    border-radius:70px 0px 100px 100px;
+    right:115;
+  }
+</style>
