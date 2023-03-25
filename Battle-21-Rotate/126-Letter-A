@@ -1,0 +1,39 @@
+<div d></div>
+<div o></div>
+<div n></div>
+<div e></div>
+<style>
+body{
+  background:#62306D;}div{position:absolute;}
+[d]{
+  height:140px;
+  width:43px;
+  background:#C5B732;
+  transform:skew(20deg);
+  top:80;
+  left:208;
+}
+[o]{ height:140px;
+    width:42px;
+    background:#FEF9CA;
+    transform:skew(-20deg);
+    top:80;
+    left:149;
+   }
+[n]{
+  height:50px;
+  width:52px;
+  background:#AA445F;
+  transform:skew(40deg);
+  top:170;
+  left:198
+}
+[e]{
+  height:50px;
+  width:52px;
+  background:#E38F66;
+  transform:skew(-40deg);
+  top:170;
+  left:150;
+}
+  
