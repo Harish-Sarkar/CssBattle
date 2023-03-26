@@ -1,0 +1,31 @@
+<div class='i j top'></div>
+<div class='i j btm'></div>
+<div class='i dot'></div>
+<div class='i mid'></div>
+<div class='i mdside'></div>
+<style>
+  body{
+    background:#E3516E;}
+  .i{
+  position:absolute;
+  background:#FADE8B;}
+  .j{ height:30px;width:100px;
+  border-radius:100px;}
+  .top{
+  top:70;left:150;}
+  .btm{
+    left:150;bottom:70;}
+  .dot{
+    height:30px;width:30px;;
+    border-radius:50%;
+    top:70;right:110;
+    box-shadow:-150px 130px #FADE8B}
+  .mid{
+    height:100px;width:50px;
+    top:100;left:175;}
+  .mdside{
+    height:100px;width:30px;
+    background:#E3516E;
+    border-radius:10px;top:100;left:155;
+    box-shadow:60px 0px #E3516E;}
+</style>
