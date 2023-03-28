@@ -1,0 +1,14 @@
+<div></div>
+<style>
+*{
+background:#926927;
+}
+div
+{
+border:solid 20px #FFFFFF;
+border-radius:30px;
+height:120px;
+width:60px;
+margin:70px 152px;
+box-shadow:-20px 0px #6D480A inset, -20px 0px #6D480A;
+}
