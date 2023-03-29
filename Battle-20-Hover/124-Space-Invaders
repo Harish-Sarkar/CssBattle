@@ -1,0 +1,36 @@
+<div bar></div>
+<div sqr></div>
+<div tri></div>
+<style>
+  body{
+    background:#071945;
+  }
+  div{
+    position:absolute;
+  }
+  div[bar] {
+    width: 50px;
+    height: 10px;
+    background: #B069F7;
+    top:40;
+    left:40;
+    box-shadow:90px 0 #B069F7, 180px 0px #B069F7, 270px 0px #B069F7, 0px 50px #F8DA37, 180px 50px #F8DA37, 270px 50px #F8DA37;
+  }
+  div[sqr]{
+    height:10px;
+    width:10px;
+    background:#B069F7;
+    top:50;
+    left:30;
+    box-shadow: 60px 0px #B069F7,90px 0px #B069F7, 150px 0px #B069F7, 180px 0px #B069F7, 240px 0px #B069F7, 270px 0px #B069F7, 330px 0px #B069F7, 0px 50px #F8DA37, 60px 50px #F8DA37, 180px 50px #F8DA37, 240px 50px #F8DA37, 270px 50px #F8DA37, 330px 50px #F8DA37, 165px 160px #2CE1EA, 165px 190px #2CE1EA, 165px 220px #2CE1EA, 165px 225px #2CE1EA;
+  }
+  div[tri]{
+    height:0;
+    width:0;
+    border-left:solid 20px transparent;
+    border-right:solid 20px transparent;
+    border-bottom:solid 20px #2CE1EA;
+    bottom:0;
+    left:180
+  }
+</style>
