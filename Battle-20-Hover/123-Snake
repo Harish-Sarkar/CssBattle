@@ -1,0 +1,24 @@
+<div a></div>
+<div b></div>
+<style>
+  body{
+    background:#C74E4E;
+  }
+  div{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+  }
+  div[a]{
+    background: #E0E246;
+    border-radius: 5px;
+    top:190;left:90;
+    box-shadow:25px 0px #E0E246,50px 0px #E0E246,75px 0px #E0E246,100px 0px #E0E246,125px 0px #E0E246,150px 0px #E0E246,175px 0px #E0E246,200px 0px #E0E246,200px -25px #E0E246, 200px -50px #E0E246,200px -75px #E0E246,200px -100px #E0E246,175px -100px #E0E246, 150px -100px #E0E246, 125px -100px #E0E246, 100px -100px #E0E246;
+  }
+div[b]{
+  border-radius:100%;
+  background:#FFFFFF;
+  top:90;
+  left:90;
+}
+</style>
