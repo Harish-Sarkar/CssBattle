@@ -1,0 +1,21 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  *{background:#F3AC3C;}
+div{
+  width: 80px;
+  height: 80px;
+  border-radius: 100% 100% 0 100%;
+  background:#254241;
+  position:absolute;}
+  [a]{
+  rotate:45deg;top:40;left:160;
+  }
+  [b]{
+    rotate:-135deg;bottom:40;left:160;
+  }
+  [c]{
+    rotate:-45deg; top:110;left:80
+  }
+</style>
