@@ -1,0 +1,23 @@
+<div></div>
+<style>
+  body{
+  background:#293462;}
+  div {
+    width: 200px;
+    height: 100px;
+    background: #FE5F55;
+    border-radius:20px;
+    position:absolute;
+    top:90;
+    left:100;
+    box-shadow:0px 20px #A64942;}
+  div:after{
+    content:'';
+    height:40px;
+    width:140px;
+    background:#A64942;
+    position:absolute;
+    top:30;
+    border-radius:100px;
+    left:30;}
+</style>
