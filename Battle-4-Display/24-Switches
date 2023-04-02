@@ -1,0 +1,33 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div{
+    position:absolute;
+  }
+  div[a] {
+    width: 100px;
+    height: 100px;
+    background: #AA445F;
+    border-radius:100px 100px 0 0;
+    top:50;left:80;
+  }
+  div[b]{
+    width: 100px;
+    height: 100px;
+    background:#E38F66;
+    border-radius: 0 0 100px 100px;
+    top:150;left:220
+  }
+  div[c]{
+    height:100px;
+    width:100px;
+    background:#F7EC7D;
+    border-radius:100px;
+    top:100;left:80;
+    box-shadow:140px 0px #F7EC7D;
+  }
+</style>
