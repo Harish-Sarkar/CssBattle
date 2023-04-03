@@ -1,0 +1,13 @@
+<div></div>
+<style>
+  body{
+    background:#F5D6B4;
+    margin:0;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+    background: #D86F45;
+  }
+</style>
