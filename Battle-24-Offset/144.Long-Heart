@@ -1,0 +1,41 @@
+<div y></div>
+<div bgc></div>
+<div top></div>
+<div right></div>
+<style>
+  body{
+    background:#62306D;
+    margin:0;
+  }
+  div{
+    position:absolute;
+  }
+  div[y] {
+    width: 150px;
+    height: 150px;
+    background: #F7EC7D;
+    bottom:0;
+  }
+  [y],[top],[right]{
+    background:#F7EC7D;
+  }
+  div[bgc]{
+    width:100px;
+    height:100px;
+    background:#62306D;
+    border-radius:25px;
+    left:75;top:125;
+  }
+  div[top]{
+    height:50px;
+    width:75px;
+    border-radius:100px 100px 0 0;
+    top:100;
+  }
+  div[right]{
+    height:75px;
+    width:75px;
+    border-radius:0 100px 100px 0;
+    bottom:0;left:125;
+  }
+</style>
