@@ -1,0 +1,27 @@
+<div a></div>
+<div b></div>
+<style>
+  div{
+    position:absolute;}
+  body{
+    margin:0;
+    background:#F3AC3C
+}  div[a] {
+    border:solid 30px #998235;
+    width: 100px;
+    height: 100px;
+    rotate:45deg;
+    top:70;
+    left:118;
+  }
+  div[b]{
+    height:30px;
+    width:30px;
+    background:#1A4341;
+    rotate:45deg;
+    top:135;
+    left:183;
+    box-shadow:-65px 0px #F3AC3C, 0px -65px #F3AC3C
+    
+  }
+</style>
