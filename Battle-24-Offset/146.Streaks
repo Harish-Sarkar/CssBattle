@@ -1,0 +1,15 @@
+<div></div>
+<style>
+  body {
+    background: #998235;
+  }
+  div{
+    height:25px;
+    width:350px;
+    background:#FCBE5C;
+    position:absolute;
+    rotate:-45deg;
+    right:-72;bottom:80;
+    box-shadow:-44px 26px #0B2429, -60px 76px #FCBE5C, -70px 100px #0B2429; 
+  }
+</style>
