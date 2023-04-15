@@ -1,0 +1,39 @@
+<div a></div>
+<div sqr></div>
+<div b></div>
+<div dot></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  div{
+    position:absolute;
+  }
+  div[a] {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius:100%;
+    top:75;left:125
+  }
+  div[sqr]{
+    height:90px;
+    width:90px;
+    background:#1A4341;
+    top:150;left:200;
+  }
+  div[b]{
+    height:100px;
+    width:100px;
+    background:#F3AC3C;
+    border-radius:0 100px 0 0;
+    top:50;left:200;
+  }
+  div[dot]{
+    height:30px;
+    width:30px;
+    border-radius:100px;
+    background:#0B2429;
+    top:105;left:155;
+  }
+</style>
