@@ -1,0 +1,27 @@
+<div b></div>
+<div m></div>
+<div t></div>
+<style>
+  body{
+    background:#007065;
+  }
+  div {
+  position:absolute;
+    height:0;width:0;
+    border-left:solid 125px transparent;
+    border-right:solid 125px transparent;
+    left:75;
+  }
+  div[b]{
+    border-bottom:solid 100px#00A79D;
+    top:150
+  }
+  div[m]{
+    border-bottom:solid 100px #F5C181;
+    top:100;left:75;
+  }
+  div[t]{
+    border-bottom:solid 100px #FFEECF;
+    top:50
+  }
+</style>
