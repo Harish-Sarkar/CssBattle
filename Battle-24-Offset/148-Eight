@@ -1,0 +1,31 @@
+<div c a></div>
+<div c b></div>
+<div corner></div>
+<style>
+body{
+background:#926927;
+margin:0;
+}
+div{
+position:absolute;
+}
+[corner]{
+height:15px;width:15px;right:0;
+background:#6D480A;
+}
+[c]{
+width: 100px;
+height: 50px;
+border-radius:0 0 100px 100px;
+border:solid 40px #6D480A;
+border-top:0;
+}
+[a]{
+right:10 
+}
+[b]{
+rotate:90deg;
+right:-45;
+top:55
+}
+</style>
