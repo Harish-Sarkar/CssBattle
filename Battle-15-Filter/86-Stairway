@@ -1,0 +1,23 @@
+<div a></div>
+<div stairs></div>
+<style>
+  body{
+    background:#191919;
+  }
+  div{
+    position:absolute;
+  }
+  [a] {
+    width: 100px;
+    height: 150px;
+    background: #4F77FF;
+    border-radius:100px 100px 0 0;
+    top:75;left:150
+  }
+  [stairs]{
+    height:20px;width:100px;
+    background:#191919;
+    bottom:75;left:170;
+    box-shadow:20px -24px #191919, 40px -48px#191919, 60px -72px #191919;
+  }
+</style>
