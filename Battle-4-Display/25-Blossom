@@ -1,0 +1,38 @@
+<div x a></div>
+<div x b></div>
+<div y c></div>
+<div y d></div>
+<style>
+body{
+background:#998235;
+}
+div{
+position:absolute;
+}
+[x]{
+width: 80px;
+height: 100px;
+background: #1A4341;
+}
+[a]{
+border-radius:0px 50px;
+top:60;left:110
+}
+[b]{
+border-radius:50px 0px;
+bottom:60;right:110
+}
+[y]{
+height:60px;
+width:80px;
+background:#F3AC3C;
+}
+[c]{
+border-radius:0px 50px;
+bottom:60;left:110
+}
+[d]{
+border-radius:50px 0px;
+top:60;right:110
+}
+</style>
