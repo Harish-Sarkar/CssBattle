@@ -1,0 +1,34 @@
+<div a></div>
+<div cmn b></div>
+<div cmn c></div>
+<style>
+body{
+background:#222;
+}
+div{
+position:absolute;}
+[a]{ 
+width: 30px;
+height: 85px;
+background: #2D9CDB;
+rotate:45deg;
+top:155;left:207;
+box-shadow:-100px -35px #F2994A;
+}
+[cmn]{
+width: 30px;
+height: 80px;
+rotate:-45deg;
+top:110;
+}
+[b]{
+background:#F2994A;
+border-radius:10px 0px 5px 0;
+left:148
+}
+[c]{
+background:#2D9CDB;
+border-radius:5px 0px 10px 0;
+left:220;
+}
+</style>
