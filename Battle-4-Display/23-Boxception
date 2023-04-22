@@ -1,0 +1,28 @@
+<div></div>
+<style>
+body{
+background:#F3AC3C;
+}
+div { position:relative;
+width: 200px;
+height: 200px;
+background: #1A4341;
+bottom:-42;left:92
+}
+div:before{
+content:'';
+height:100px;
+width:100px;
+background:#998235;
+position:absolute;
+bottom:0;
+}
+div:after{
+content:'';
+height:50px;
+width:50px;
+background:#F3AC3C;
+position:absolute;
+bottom:0;left:50;
+}
+</style>
