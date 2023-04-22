@@ -1,0 +1,25 @@
+<div bar></div>
+<div balls></div>
+<style>
+body{
+background:#f5d6b4;
+}
+div{
+position:absolute;
+}
+[bar]{
+height:50px;
+width:160px;
+background:#d86f45;
+border-radius:50px;
+left:140;top:165
+}
+[balls]{
+width: 100px;
+height: 100px;
+background: #D86F45;
+border-radius:100px;
+top:115;left:100;
+box-shadow:80px -30px #D86F45;
+}
+</style>
